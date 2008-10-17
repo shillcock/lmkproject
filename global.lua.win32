@@ -3,17 +3,22 @@ lmk.set_global_env {
 
    DMZ_USE_QT=true,
    DMZ_QT_HOME="$(lmk.projectRoot)depend/bin",
-   DMZ_QT_INCLUDE_PATH="/Library/Frameworks",
-   DMZ_QT_LIB_PATH="/Library/Frameworks",
-   
+   DMZ_QT_INCLUDE_PATH="$(lmk.projectRoot)depend/qt/include",
+   DMZ_QT_LIB_PATH="$(lmk.projectRoot)depend/qt/lib",
+   DMZ_QT_DEBUG="",
+  
    DMZ_USE_OGRE=true,
-   DMZ_OGRE_INCLUDE_PATH="/Library/Frameworks",
-   DMZ_OGRE_LIB_PATH="/Library/Frameworks",
-   
+   DMZ_OGRE_INCLUDE_PATH="$(lmk.projectRoot)depend/ogre/include",
+   DMZ_OGRE_LIB_PATH="$(lmk.projectRoot)depend/ogre/lib",
+ 
    DMZ_USE_OSG=true,
-   DMZ_OSG_INCLUDE_PATH="/Library/Frameworks",
-   DMZ_OSG_LIB_PATH="/Library/Frameworks",
-   
+   DMZ_OSG_INCLUDE_PATH="$(lmk.projectRoot)depend/osg/include",
+   DMZ_OSG_LIB_PATH="$(lmk.projectRoot)depend/osg/lib",
+ 
+   DMZ_USE_OPENAL = true,
+   DMZ_OPENAL_INCLUDE_PATH = "$(lmk.projectRoot)depend/openal/include",
+   DMZ_OPENAL_LIB_PATH = "$(lmk.projectRoot)depend/openal/lib",
+ 
    DMZ_USE_FMOD=true,
    DMZ_FMOD_INCLUDE_PATH="$(lmk.projectRoot)depend/fmod/api/inc",
    DMZ_FMOD_LIB_PATH="$(lmk.projectRoot)depend/fmod/api/lib",

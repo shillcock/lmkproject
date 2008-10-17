@@ -1,7 +1,7 @@
 #!/bin/bash
 
 REPOS=(lmk dmz scripts cycles io mbra)
-SRC_DIR=/home/scott/cm/src
+SRC_DIR=/home/shillcock/cm/src
 GITHUB=git@github.com
 USERNAME=shillcock
 REMOTE=bluemarvin
