@@ -1,10 +1,10 @@
 #!/bin/bash
 
-REPOS=(lmk dmz scripts cycles io mbra)
-SRC_DIR=/home/shillcock/cm/src
+REPOS=(lmk dmz scripts cycles io mbra qmapcontrol qtsolutions)
+SRC_DIR=/Users/shillcock/cm/src
 GITHUB=git@github.com
 USERNAME=shillcock
-REMOTE=bluemarvin
+REMOTE=dmzdev
 
 if [ -d $SRC_DIR ];
 then

@@ -1,5 +1,3 @@
-if lmk.system () ~= "iphone" then
-
 lmk.set_global_env {
 
    DMZ_USE_QT=true,
@@ -21,8 +19,7 @@ lmk.set_global_env {
    
    DMZ_USE_OPENAL=true,
    DMZ_USE_QMAPCONTROL=true,
+   DMZ_USE_QT_SOLUTIONS=true,
 }
-
-end
 
 lmk.set_color_mode (true);
