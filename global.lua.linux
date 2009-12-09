@@ -1,5 +1,6 @@
+-- lmk.set_color_mode (true);
 
-lmk.set_global_env {
+lmk.add_global_env {
 
    DMZ_USE_QT=true,
    DMZ_QT_HOME="/usr/bin",
